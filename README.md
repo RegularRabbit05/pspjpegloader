@@ -6,11 +6,11 @@ Requires: https://github.com/raylib4Consoles/raylib4Psp <br>
 
 Command used for converting chroma subsampling: `ffmpeg -i fileIn.jpg -vf format=yuv420p,scale=400x400 file.jpg`
 
-Results: (F = fail | X = pass)
-- [F] yuv444p
-- [F] yuvj444p
-- [F] yuv422p
-- [F] yuvj422p
+Results:
+- [ ] yuv444p
+- [ ] yuvj444p
+- [ ] yuv422p
+- [ ] yuvj422p
 - [X] yuv420p
 - [X] yuvj420p
 <br>
